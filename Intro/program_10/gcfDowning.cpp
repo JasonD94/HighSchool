@@ -6,34 +6,35 @@ void gcf(int a, int b);
 
 main()
 {
-	int x = 2, int1, int2;
-
-	do{
-
-	cout<<"Welcome to the Greatest Common Factor (GCF) Program. \n";
-	cout<<"This program will accept two integers and then find the GCF \n";    //intro
-	cout<<"of the two numbers. \n";
-
-	cout<<"\nPlease enter two integers. \n";
-	cout<<"First Integer.  -> ";        //first number
-	cin>>int1;
-	cout<<"Second Integer. -> ";        //second number
-	cin>>int2;
-
-	gcf(int1,int2);        //sends the two values, doesn't return them.
+    int x = 2, int1, int2;
 
     do{
-	cout<<"\nTo stop the program, enter 1. To rerun the program, enter 2. -> ";
-	cin>>x;
-	cout<<endl;
 
-	}while((x != 1) && (x != 2)); //makes it so only 1 or 2 can be entered - cannot enter 3 to quit for instance.
+    cout<<"Welcome to the Greatest Common Factor (GCF) Program. \n";
+    cout<<"This program will accept two integers and then find the GCF \n";    //intro
+    cout<<"of the two numbers. \n";
 
-	clrscr();
+    cout<<"\nPlease enter two integers. \n";
+    cout<<"First Integer.  -> ";        //first number
+    cin>>int1;
+    cout<<"Second Integer. -> ";        //second number
+    cin>>int2;
 
-	}while(x==2);
+    gcf(int1,int2);        //sends the two values, doesn't return them.
 
-	return 0;
+    do{
+        cout<<"\nTo stop the program, enter 1. To rerun the program, enter 2. -> ";
+        cin>>x;
+        cout<<endl;
+
+    // this makes it so only 1 or 2 can be entered - cannot enter 3 to quit for instance.
+    }while((x != 1) && (x != 2)); 
+
+    clrscr();
+
+    }while(x==2);
+
+    return 0;
 }
 
 void gcf (int a, int b)
