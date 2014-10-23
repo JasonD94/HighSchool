@@ -10,12 +10,12 @@ int main()
 	cout<<"when you input the values for 'a' and 'x'. \n";
 	cout<<"========================================== \n";
 	cout<<endl;
-	cout<<"Enter a value for 'a'. \n";   //asks user for 'a'. next line accepts 'a' and stores it.
+	cout<<"Enter a value for 'a'. \n";   	//asks user for 'a'. next line accepts 'a' and stores it.
 	cin>>a;
-	cout<<"Enter a value for 'x.' \n";   //asks user for 'x'. next line accepts 'x' and stores it.
+	cout<<"Enter a value for 'x.' \n";   	//asks user for 'x'. next line accepts 'x' and stores it.
 	cin>>x;
 	cout.precision(5);
-	ans1=pow(x,3);               //does the math of the equation f(x)=ax^3+7
+	ans1=pow(x,3);               			//does the math of the equation f(x)=ax^3+7
 	ans2=ans1*a;
 	ans3=ans2+7;
 	cout<<endl;

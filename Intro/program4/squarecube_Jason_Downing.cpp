@@ -1,9 +1,10 @@
-#include <iostream.h>    //header file for input-output
-#include <iomanip.h>    //header file for input output manipulator. used for setw().
-#include <math.h>      //header file for math (used for the pow and cube.)
+#include <iostream.h>    	//header file for input-output
+#include <iomanip.h>    	//header file for input output manipulator. used for setw().
+#include <math.h>      		//header file for math (used for the pow and cube.)
 
 int main()
 {
+	// clearly I had no idea how to use an array at this point, lol.
 	double a,b,c,d,e,f,g,h,i,j,x,xsq,xcb,asq,acb,bsq,bcb,csq,ccb,dsq,dcb,esq,ecb,fsq,fcb,gsq,gcb,hsq,hcb,isq,icb,jsq,jcb;
 	cout<<"Welcome to the SQAURE CUBE Program. \n";
 	cout<<"Please enter a number. This program will give you\n";

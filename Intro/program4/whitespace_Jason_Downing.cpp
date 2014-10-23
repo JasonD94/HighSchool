@@ -11,6 +11,9 @@ int main()
 	cout<<endl;
 	cin>>x;
 	cout<<endl;
+
+	// Why did I not use a loop here?
+
 	cout<<x<<x<<x<<x<<x<<x<<x<<x<<x<<setw(7)<<x<<x<<x<<setw(10)<<x<<setw(10)<<x;                       //the annoying part. just a bunch of setw() and
 	cout<<endl;                                                                                        // a bunch of endl, along with displaying the
 	cout<<x<<setw(8)<<x<<setw(5)<<x<<setw(4)<<setw(6)<<x<<setw(7)<<x<<x<<x<<setw(8)<<x<<setw(2)<<x;    //character entered.
